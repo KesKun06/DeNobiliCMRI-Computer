@@ -12,9 +12,12 @@ public class Main {
   public static void menu() {
     boolean repeat = false;
     Scanner sc = new Scanner(System.in);
-    String options = "1. Creating a new number by swaping consecutive pair of digits of even digits number.\n" +
-        "2. Creating a new number by rearranging the given number in ascending order.\n" +
-        "Choose a program (1-2): ";
+    String options = "\n ************************************************************** \n\n" +
+        "1. Swap consecutive pair of digits of even digits number.\n" +
+        "2. Rearranging a number in ascending order.\n" +
+        "3. Break-up a number in descending order of denomination in rupees\n" +
+        "4. Number in Words (limit One Lakh - 1,00,000).\n" +
+        "Choose a program (1-4): ";
 
     do {
       System.out.print(options);
@@ -26,20 +29,28 @@ public class Main {
           System.out.print("1. Int Type\n2. String Type\nChoose a program (1-2): ");
           switch (sc.nextInt()) {
             case 1:
-              new EvenDigitNumSwap().intType();
-              System.out.println(
-                  "\n ************************************************************** \nSource Code: EvenDigitNumSwap.java\n");
               new src().EvenDigitNumSwapInt();
+              new IEvenDigitNumSwap().run();
               break;
 
             case 2:
-              new EvenDigitNumSwap().stringType();
+              System.out.println("\n ************************************************************** \n\n");
+              new SEvenDigitNumSwap().run();
+              // new src().EvenDigitNumSwapString();
               break;
           }
           break;
 
         case 2:
-          new NumAscending().run();
+          new SmallestNum().run();
+          break;
+
+        case 3:
+          new RupeeCounter().run();
+          break;
+
+        case 4:
+          new NumWord().run();
           break;
 
         default:
