@@ -27,7 +27,7 @@ It contains source code of important programs.
 Clone the project
 
 ```bash
-  git clone https://github.com/KesKun06/DeNobiliCMRI-Computer
+  git clone https://github.com/KesKun06/DeNobiliCMRI-Computer.git
 ```
 
 Go to the project directory
