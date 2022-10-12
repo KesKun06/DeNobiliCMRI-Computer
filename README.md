@@ -1,8 +1,8 @@
 <p align="center"><img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" align="middle" alt="Logo" height=125 width=200 /></p>
 
 # De Nobili CMRI - Computer
+[![JAVA version](https://img.shields.io/badge/java-openjdk%2017.0.3-orange?style=plastic)](https://www.oracle.com/java/technologies/javase/17-0-3-relnotes.html)
 [![GitHub last commit](https://img.shields.io/github/last-commit/KesKun06/DeNobiliCMRI-Computer?style=plastic)](https://www.github.com/KesKun06)
-[![JAVA version](https://img.shields.io/badge/java-openjdk%2017.0.3-orange)]()
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blueviolet.svg?style=plastic)](http://www.gnu.org/licenses/agpl-3.0)
 
 This is a JAVA Project for ISC students.
