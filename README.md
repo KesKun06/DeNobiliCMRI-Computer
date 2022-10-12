@@ -10,11 +10,6 @@ Mainly for students of De Nobili CMRI.
 It contains source code of important programs.
 
 
-## Badges
-
-
-
-
 ## Tech Stack
 
 **JAVA:** openjdk 17.0.3
