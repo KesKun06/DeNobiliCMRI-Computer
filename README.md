@@ -64,9 +64,8 @@ Answer 1
 
 ## Acknowledgement
 
-I would like toexpress my special thanks of gratitude to my Computer teacher *"Mr. Subhasis Ghosh"* who gave me the golden opportunity to do this wonderful project of *Computer*, which also helped me in doing a lot of Research and I came to know about so many new things.
-
-Secondly I would like to thank my friends who helped me a a lot in this project.
+- This project is for ISC Students
+- Many thanks to *Mr. Subhasis Ghosh*
 
 
 ## Support
