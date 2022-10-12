@@ -80,7 +80,7 @@ For support, email keshavkundanba@gmail.com.
 
 ## License
 
-[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
+This project is open source and available under the [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/) License.
 
 
 ## Feedback
