@@ -1,8 +1,7 @@
 <p align="center"><img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" align="middle" alt="Logo" height=125 width=200 /></p>
 
-<p align="center"> [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0) </p>
-
 # De Nobili CMRI - Computer
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blueviolet.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 This is a JAVA Project for ISC students.
 Mainly for students of De Nobili CMRI.
