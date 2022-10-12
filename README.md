@@ -2,6 +2,7 @@
 
 # De Nobili CMRI - Computer
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blueviolet.svg)](http://www.gnu.org/licenses/agpl-3.0)
+[![Maintenance](https://img.shields.io/maintenance/yes/2022?style=plastic)](https://www.github.com/KesKun06)
 
 This is a JAVA Project for ISC students.
 Mainly for students of De Nobili CMRI.
