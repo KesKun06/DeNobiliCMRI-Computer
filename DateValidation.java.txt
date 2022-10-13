@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class DateValidation {
+  public void run() {
+    System.out.println(">>>>> Under Construction <<<<<");
+  }
+  public void test() {
+    // Declare and initalise vars
+    int date, temp, x=0;
+    boolean leap;
+    Scanner sc = new Scanner(System.in);
+
+    // Taking user input
+    System.out.print("Enter a date(DDMMYYYY): ");
+    date = sc.nextInt();
+
+    // Counting number of digits
+    temp = date;
+    while (temp > 0) {
+      temp /= 10;
+      x++;
+    }
+
+    leap = ((date%10000)%4 == 0) ? (((date%10000)%100 == 0) ? (((date%10000)%400 == 0) ? true : false) : true) : false;
+    if (x == 8) {
+      if (((date/10000)%100)<=12) {
+        if ((((date/10000)%100)<=12) || (((date/1000000)%100)<=)) {                                                                    
+       }
+      }
+    }
+  }
+}

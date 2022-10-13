@@ -15,9 +15,9 @@ It contains source code of important programs.
 * [Run Locally](#run-locally)
 * [FAQ](#faq)
 * [Acknowledgement](#acknowledgement)
-* [Support](#support)
 * [Authors](#authors)
 * [License](#license)
+* [Support](#support)
 * [Feedback](#feedback)
 * [Contact](#contact)
 
@@ -58,9 +58,9 @@ Run Main Program
 
 ## FAQ
 
-#### Question 1
+#### Is project complete?
 
-Answer 1
+No, the project is: _in progress_.
 
 
 ## Acknowledgement

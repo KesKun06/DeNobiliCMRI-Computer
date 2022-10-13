@@ -24,7 +24,7 @@ import java.util.Scanner;
 public class RupeeCounter {
   public void run() {
     // Declaring & initialising vars
-    int num, temp, rupee[] = new int[7];
+    int num, temp, rupee[] = new int[10];
     String word[] = { "ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE" }, n = "";
     Scanner sc = new Scanner(System.in);
 
@@ -39,14 +39,20 @@ public class RupeeCounter {
     }
     temp = num;
 
-    rupee[6] = temp / 2000;
+    rupee[9] = temp / 2000;
     temp %= 2000;
-    rupee[5] = temp / 500;
+    rupee[8] = temp / 500;
     temp %= 500;
-    rupee[4] = temp / 100;
+    rupee[7] = temp / 200;
+    temp %= 200;
+    rupee[6] = temp / 100;
     temp %= 100;
-    rupee[3] = temp / 50;
+    rupee[5] = temp / 50;
     temp %= 50;
+    rupee[4] = temp / 20;
+    temp %= 20;
+    rupee[3] = temp / 10;
+    temp %= 10;
     rupee[2] = temp / 5;
     temp %= 5;
     rupee[1] = temp / 2;
@@ -54,16 +60,30 @@ public class RupeeCounter {
     rupee[0] = temp / 1;
 
     System.out.println("\n\nAmount: " + n + "\n");
-    System.out.println("DENOMINATION: 2000 * " + rupee[6] + " = " + rupee[6] * 2000);
-    System.out.println("               500 * " + rupee[5] + " = " + rupee[5] * 500);
-    System.out.println("               100 * " + rupee[4] + " = " + rupee[4] * 100);
-    System.out.println("                50 * " + rupee[3] + " = " + rupee[3] * 50);
-    System.out.println("                 5 * " + rupee[2] + " = " + rupee[2] * 5);
-    System.out.println("                 2 * " + rupee[1] + " = " + rupee[1] * 2);
-    System.out.println("                 1 * " + rupee[0] + " = " + rupee[0] * 1);
+    System.out.println("DENOMINATION:");
+    if (rupee[9] != 0)
+      System.out.println("              2000 * " + rupee[9] + " = " + rupee[9] * 2000);
+    if (rupee[8] != 0)
+      System.out.println("               500 * " + rupee[8] + " = " + rupee[8] * 500);
+    if (rupee[7] != 0)
+      System.out.println("               200 * " + rupee[7] + " = " + rupee[7] * 200);
+    if (rupee[6] != 0)
+      System.out.println("               100 * " + rupee[6] + " = " + rupee[6] * 100);
+    if (rupee[5] != 0)
+      System.out.println("                50 * " + rupee[5] + " = " + rupee[5] * 50);
+    if (rupee[4] != 0)
+      System.out.println("                20 * " + rupee[4] + " = " + rupee[4] * 20);
+    if (rupee[3] != 0)
+      System.out.println("                10 * " + rupee[3] + " = " + rupee[3] * 10);
+    if (rupee[2] != 0)
+      System.out.println("                 5 * " + rupee[2] + " = " + rupee[2] * 5);
+    if (rupee[1] != 0)
+      System.out.println("                 2 * " + rupee[1] + " = " + rupee[1] * 2);
+    if (rupee[0] != 0)
+      System.out.println("                 1 * " + rupee[0] + " = " + rupee[0] * 1);
     System.out.println("\n                 Total : " + num);
     System.out.println(
-        "\n Total Number of Notes : " + (rupee[0] + rupee[1] + rupee[2] + rupee[3] + rupee[4] + rupee[5] + rupee[6]));
+        "\n Total Number of Notes : " + (rupee[0] + rupee[1] + rupee[2] + rupee[3] + rupee[4] + rupee[5] + rupee[6] + rupee[7] + rupee[8] + rupee[9]));
   }
 }
 
